@@ -12,7 +12,7 @@ if pct > 90:
 elif pct > 80 and pct <= 90:
     print(" grade : B")
 elif pct > 70 and pct <= 80:
-    print(" grade : c")
+    print(" grade : C")
 elif pct > 60 and pct <= 70:
     print(" grade : D")
 else :
