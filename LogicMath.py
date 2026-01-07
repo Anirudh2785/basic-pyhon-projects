@@ -4,7 +4,7 @@ print("2. Odd Numbers (1 to 100)")
 print("3. Even Numbers (1 to 100)")
 print("4. Factorial of a Number")
 
-choice = int(input("Enter your choice (1-6): "))
+choice = int(input("Enter your choice (1-4): "))
 
                     # 1 to 100
 if choice == 1:
