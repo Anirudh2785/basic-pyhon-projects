@@ -5,9 +5,9 @@ a = (no[::-1])
 b = (no[0::])
 
 if a == b :
-    print("true")
+    print("yes," ,no, "is a palindrome number.")
 elif a != b :
-    print("false")
+    print("no," ,no, "is not a palindrome number.")
 else :
     print("error")
 
