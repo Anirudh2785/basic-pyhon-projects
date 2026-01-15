@@ -10,7 +10,7 @@ sorting = []
 for i in range ( 1, no ):
     rem = num % i
     if rem == 0:
-        div = num  // i 
+        div = int (num  / i) 
         if i == div :
             sorting.append(i)
         else:
