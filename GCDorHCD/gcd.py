@@ -31,7 +31,9 @@ for o in range (1,n2+1) :
 
 com = set(up) & set(down)
 
-print(com)
+gcd = max(com)
+
+print(gcd)
 
 
 
