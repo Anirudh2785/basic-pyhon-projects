@@ -6,6 +6,7 @@ sub5 = int(input("enter your 5'th subujet mark :"))
 
 add =   sub1 + sub2 + sub3 + sub4 + sub5
 pct = add / 500 * 100 
+print("percentage =",pct)
 
 if pct > 90:
     print(" grade : A")
@@ -16,4 +17,4 @@ elif pct > 70 and pct <= 80:
 elif pct > 60 and pct <= 70:
     print(" grade : D")
 else :
-    print(" grade : F ")
+    print(" grade : Fail ")
