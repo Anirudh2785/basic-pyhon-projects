@@ -5,7 +5,7 @@ no = n + 1
 
 print("Divisors of ",num," are : ", end="")
 
-sorting = [ ]
+sorting = []
 
 for i in range ( 1, no ):
     rem = num % i
