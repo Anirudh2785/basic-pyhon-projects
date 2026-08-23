@@ -3,4 +3,4 @@ def num(n):
         return
     print( n )
     num(n + 1)
-num(0)
+num(1)
